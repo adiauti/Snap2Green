@@ -1,4 +1,5 @@
 # Snap2Green
+
 One upload. One verified footprint. One clearer path to climate action.
 
 ## 1. Project Title
@@ -15,18 +16,18 @@ Snap2Green is a modern web and mobile-ready carbon accounting application design
 
 Users can upload existing records such as:
 
-* Electricity bills
-* Fuel records/receipts
-* Grocery receipts
-* Travel tickets
+- Electricity bills
+- Fuel records/receipts
+- Grocery receipts
+- Travel tickets
 
 AI/OCR extracts relevant activity data, the user verifies the extracted information, and the backend maps that activity to India-specific emission factors. Snap2Green then calculates the corresponding emissions and presents them through an understandable dashboard.
 
 The target users are:
 
-* Students and campus communities — primary pilot users
-* Urban citizens — broader consumer audience
-* Corporates — future users of the underlying engine for employee Scope 3 data
+- Students and campus communities — primary pilot users
+- Urban citizens — broader consumer audience
+- Corporates — future users of the underlying engine for employee Scope 3 data
 
 The application addresses the high effort required by existing carbon-tracking applications and the lack of an affordable, India-accurate, low-friction alternative.
 
@@ -52,12 +53,12 @@ Climate-conscious individuals increasingly want to understand and reduce their e
 
 Users may need to repeatedly enter:
 
-* Travel information
-* Fuel consumption
-* Electricity usage
-* Purchases
-* Transportation activity
-* Other daily activities
+- Travel information
+- Fuel consumption
+- Electricity usage
+- Purchases
+- Transportation activity
+- Other daily activities
 
 This creates a high-friction experience, causing users to abandon tracking after a short period.
 
@@ -67,9 +68,9 @@ There is also a localization problem. International carbon applications may rely
 
 Snap2Green therefore proposes using localized sources such as:
 
-* CEA electricity-grid emission factors
-* MoEFCC-related emission-factor values
-* Indian fuel and transportation assumptions
+- CEA electricity-grid emission factors
+- MoEFCC-related emission-factor values
+- Indian fuel and transportation assumptions
 
 The application also creates a potential bridge between personal carbon tracking and future corporate ESG requirements. Companies increasingly need better data around Scope 3 emissions, including employee-related activities.
 
@@ -149,10 +150,10 @@ The system prioritizes accuracy, transparency, low user effort, and actionable i
 
 Allows users to upload supported records such as:
 
-* Electricity bills
-* Fuel records/receipts
-* Grocery receipts
-* Travel tickets
+- Electricity bills
+- Fuel records/receipts
+- Grocery receipts
+- Travel tickets
 
 The user selects an activity type and uploads a document through the application.
 
@@ -164,14 +165,14 @@ Extracts relevant information from uploaded documents.
 
 Potential fields include:
 
-* Document type
-* Date
-* Consumption
-* Quantity
-* Unit
-* Fuel type
-* Vendor/issuer
-* Relevant activity information
+- Document type
+- Date
+- Consumption
+- Quantity
+- Unit
+- Fuel type
+- Vendor/issuer
+- Relevant activity information
 
 The extracted information is displayed for verification before calculation.
 
@@ -183,9 +184,9 @@ Displays extracted values in an editable verification screen.
 
 The user can:
 
-* Review extracted information
-* Correct incorrect values
-* Confirm the data
+- Review extracted information
+- Correct incorrect values
+- Confirm the data
 
 ```text
 Extracted Data
@@ -220,10 +221,10 @@ Category
 
 Scope 1 represents direct emissions from supported activities such as:
 
-* Vehicles
-* Boilers
-* Generators
-* Fuel combustion
+- Vehicles
+- Boilers
+- Generators
+- Fuel combustion
 
 ---
 
@@ -256,14 +257,14 @@ Activity
 
 Displays:
 
-* Total emissions
-* Scope 1 emissions
-* Scope 2 emissions
-* Emissions over time
-* Top emission sources
-* Recent activities
-* Recommended actions
-* Progress indicators
+- Total emissions
+- Scope 1 emissions
+- Scope 2 emissions
+- Emissions over time
+- Top emission sources
+- Recent activities
+- Recommended actions
+- Progress indicators
 
 ---
 
@@ -304,14 +305,14 @@ consider reducing unnecessary electricity usage.
 
 Generates a downloadable report containing:
 
-* Reporting period
-* Total footprint
-* Scope breakdown
-* Activity breakdown
-* Emission factors
-* Calculation summary
-* Hotspots
-* Recommendations
+- Reporting period
+- Total footprint
+- Scope breakdown
+- Activity breakdown
+- Emission factors
+- Calculation summary
+- Hotspots
+- Recommendations
 
 ---
 
@@ -319,24 +320,24 @@ Generates a downloadable report containing:
 
 Can include:
 
-* Personal progress
-* Campus leaderboard
-* Community comparison
-* Milestones
-* Micro-incentives
+- Personal progress
+- Campus leaderboard
+- Community comparison
+- Milestones
+- Micro-incentives
 
 ---
 
 ### Advanced / Future Features
 
-* Automatic activity tracking
-* Payment-based activity detection
-* GPS-based activity detection
-* Scope 3 tracking
-* Employee commute tracking
-* Corporate ESG dashboards
-* Campus sustainability platform
-* Organization-level analytics
+- Automatic activity tracking
+- Payment-based activity detection
+- GPS-based activity detection
+- Scope 3 tracking
+- Employee commute tracking
+- Corporate ESG dashboards
+- Campus sustainability platform
+- Organization-level analytics
 
 Scope 3 remains outside the MVP.
 
@@ -403,20 +404,20 @@ Report generated
 
 **Important UI Components:**
 
-* Hero section
-* Product statement
-* Upload workflow preview
-* Carbon calculation visualization
-* Feature highlights
-* Primary CTA
-* Impact section
-* Footer
+- Hero section
+- Product statement
+- Upload workflow preview
+- Carbon calculation visualization
+- Feature highlights
+- Primary CTA
+- Impact section
+- Footer
 
 **User Actions:**
 
-* Learn about Snap2Green
-* Start the application
-* View workflow
+- Learn about Snap2Green
+- Start the application
+- View workflow
 
 ---
 
@@ -426,15 +427,15 @@ Report generated
 
 **Components:**
 
-* Login
-* Registration
-* Password reset
-* Optional social authentication
+- Login
+- Registration
+- Password reset
+- Optional social authentication
 
 **Data:**
 
-* User identity
-* Account metadata
+- User identity
+- Account metadata
 
 ---
 
@@ -444,22 +445,22 @@ Report generated
 
 **Components:**
 
-* Total footprint card
-* Scope 1 card
-* Scope 2 card
-* Trend chart
-* Emission-source breakdown
-* Recent activities
-* Top hotspot
-* Recommendation card
-* Add Activity CTA
+- Total footprint card
+- Scope 1 card
+- Scope 2 card
+- Trend chart
+- Emission-source breakdown
+- Recent activities
+- Top hotspot
+- Recommendation card
+- Add Activity CTA
 
 **Actions:**
 
-* Add activity
-* View activity
-* Explore insights
-* Generate report
+- Add activity
+- View activity
+- Explore insights
+- Generate report
 
 ---
 
@@ -469,11 +470,11 @@ Report generated
 
 **Components:**
 
-* Activity type selector
-* Drag-and-drop upload
-* Camera/upload option
-* Supported document information
-* Processing status
+- Activity type selector
+- Drag-and-drop upload
+- Camera/upload option
+- Supported document information
+- Processing status
 
 ---
 
@@ -483,17 +484,17 @@ Report generated
 
 **Components:**
 
-* Original document preview
-* Extracted fields
-* Confidence indicators where available
-* Editable fields
-* Confirm button
+- Original document preview
+- Extracted fields
+- Confidence indicators where available
+- Editable fields
+- Confirm button
 
 **Actions:**
 
-* Edit values
-* Confirm
-* Retry extraction
+- Edit values
+- Confirm
+- Retry extraction
 
 ---
 
@@ -522,11 +523,11 @@ Result
 
 **Components:**
 
-* Calculation breakdown
-* Factor source
-* Region
-* Unit
-* Audit information
+- Calculation breakdown
+- Factor source
+- Region
+- Unit
+- Audit information
 
 ---
 
@@ -536,11 +537,11 @@ Result
 
 **Components:**
 
-* Emission-source chart
-* Monthly trend
-* Scope comparison
-* Hotspot cards
-* Recommendation cards
+- Emission-source chart
+- Monthly trend
+- Scope comparison
+- Hotspot cards
+- Recommendation cards
 
 ---
 
@@ -550,10 +551,10 @@ Result
 
 **Components:**
 
-* Reporting-period selector
-* Report preview
-* Download PDF
-* Report history
+- Reporting-period selector
+- Report preview
+- Download PDF
+- Report history
 
 ---
 
@@ -563,11 +564,11 @@ Result
 
 **Components:**
 
-* Campus leaderboard
-* Personal ranking
-* Progress
-* Challenges
-* Milestones
+- Campus leaderboard
+- Personal ranking
+- Progress
+- Challenges
+- Milestones
 
 Community data should avoid exposing sensitive individual activity details.
 
@@ -608,65 +609,65 @@ flowchart TB
 
 Responsible for:
 
-* User interface
-* Authentication screens
-* Upload experience
-* Data verification
-* Dashboard
-* Charts
-* Reports
-* Loading and error states
+- User interface
+- Authentication screens
+- Upload experience
+- Data verification
+- Dashboard
+- Charts
+- Reports
+- Loading and error states
 
 ### API Layer
 
 Responsible for:
 
-* Request validation
-* Authentication
-* Authorization
-* Routing
-* Error responses
+- Request validation
+- Authentication
+- Authorization
+- Routing
+- Error responses
 
 ### Backend
 
 Responsible for:
 
-* Business logic
-* Activity processing
-* Unit normalization
-* Emission calculations
-* Emission-factor matching
-* Recommendations
-* Report generation
-* Database operations
+- Business logic
+- Activity processing
+- Unit normalization
+- Emission calculations
+- Emission-factor matching
+- Recommendations
+- Report generation
+- Database operations
 
 ### Database
 
 Stores:
 
-* Users
-* Activities
-* Extracted data
-* Emission factors
-* Calculations
-* Recommendations
-* Reports
-* Gamification data
+- Users
+- Activities
+- Extracted data
+- Emission factors
+- Calculations
+- Recommendations
+- Reports
+- Gamification data
 
 ### Object Storage
 
 Stores:
 
-* Uploaded documents
-* Generated reports
+- Uploaded documents
+- Generated reports
 
 ### AI/OCR
 
 Responsible for:
 
-* Document extraction
-* Field extraction
-* Recommendation generation
+- Document extraction
+- Field extraction
+- Recommendation generation
 
 ---
 
@@ -727,16 +728,16 @@ For a lightweight prototype, Tesseract can be used for OCR.
 
 ### Dev Tools
 
-* Git
-* GitHub
-* VS Code
-* Cursor
-* GitHub Copilot
-* Claude Code
-* Postman
-* Pytest
-* Vitest
-* Playwright
+- Git
+- GitHub
+- VS Code
+- Cursor
+- GitHub Copilot
+- Claude Code
+- Postman
+- Pytest
+- Vitest
+- Playwright
 
 ---
 
@@ -1211,11 +1212,11 @@ Travel Ticket
 
 The system may:
 
-* Convert PDF pages to images
-* Resize/crop documents
-* Improve OCR readability
-* Detect document type
-* Normalize extracted text
+- Convert PDF pages to images
+- Resize/crop documents
+- Improve OCR readability
+- Detect document type
+- Normalize extracted text
 
 ### OCR
 
@@ -1335,54 +1336,54 @@ Electricity Bill
 
 ### Authentication
 
-* Secure authentication
-* Session/token management
-* Password reset
-* Protected application routes
+- Secure authentication
+- Session/token management
+- Password reset
+- Protected application routes
 
 ### Authorization
 
 Users must only access their own:
 
-* Activities
-* Documents
-* Calculations
-* Reports
+- Activities
+- Documents
+- Calculations
+- Reports
 
 ### API Security
 
-* HTTPS
-* Authentication middleware
-* Request validation
-* Controlled CORS
-* Rate limiting on expensive endpoints
+- HTTPS
+- Authentication middleware
+- Request validation
+- Controlled CORS
+- Rate limiting on expensive endpoints
 
 ### Environment Variables
 
 Never commit:
 
-* API keys
-* Database passwords
-* JWT secrets
-* Service credentials
+- API keys
+- Database passwords
+- JWT secrets
+- Service credentials
 
 ### File Validation
 
 Validate:
 
-* File type
-* File size
-* File extension
-* Document compatibility
+- File type
+- File size
+- File extension
+- Document compatibility
 
 ### Database Security
 
 Use:
 
-* Parameterized queries/ORM
-* Access controls
-* Minimal permissions
-* Backups in production
+- Parameterized queries/ORM
+- Access controls
+- Minimal permissions
+- Backups in production
 
 ### AI API Keys
 
@@ -1400,17 +1401,17 @@ Display a clear validation message and allow correction.
 
 Provide:
 
-* Retry
-* Clear error message
-* Manual correction where appropriate
+- Retry
+- Clear error message
+- Manual correction where appropriate
 
 ### AI Failure
 
 Provide:
 
-* Retry option
-* Manual verification
-* Processing status
+- Retry option
+- Manual verification
+- Processing status
 
 No calculation should be generated from incomplete required data.
 
@@ -1426,20 +1427,20 @@ Redirect users to authentication when the session is invalid or expired.
 
 Handle:
 
-* Unsupported file
-* Oversized file
-* Corrupt document
-* Failed upload
-* Processing timeout
+- Unsupported file
+- Oversized file
+- Corrupt document
+- Failed upload
+- Processing timeout
 
 ### Network Problems
 
 Use:
 
-* Retry actions
-* Request timeouts
-* Loading states
-* Clear error messages
+- Retry actions
+- Request timeouts
+- Loading states
+- Clear error messages
 
 ---
 
@@ -1449,14 +1450,14 @@ Snap2Green should look like a modern climate-tech product rather than a generic 
 
 ### Design Principles
 
-* Modern
-* Clean
-* Minimal
-* Responsive
-* Professional
-* Accessible
-* Data-focused
-* Visually impressive
+- Modern
+- Clean
+- Minimal
+- Responsive
+- Professional
+- Accessible
+- Data-focused
+- Visually impressive
 
 Avoid excessive environmental clichés and unnecessary visual clutter.
 
@@ -1464,12 +1465,12 @@ Avoid excessive environmental clichés and unnecessary visual clutter.
 
 Use:
 
-* Strong headline
-* Large product visualization
-* Clear CTA
-* Upload workflow preview
-* Carbon calculation preview
-* Feature highlights
+- Strong headline
+- Large product visualization
+- Clear CTA
+- Upload workflow preview
+- Carbon calculation preview
+- Feature highlights
 
 Core visual story:
 
@@ -1511,10 +1512,10 @@ Recommendations
 
 Use:
 
-* Line chart → footprint trend
-* Bar/donut chart → emission sources
-* Scope comparison
-* Progress indicators
+- Line chart → footprint trend
+- Bar/donut chart → emission sources
+- Scope comparison
+- Progress indicators
 
 ### Upload Experience
 
@@ -1524,9 +1525,9 @@ Make uploading the central product interaction.
 
 Use:
 
-* Skeleton loaders
-* Processing indicators
-* Step-by-step progress
+- Skeleton loaders
+- Processing indicators
+- Step-by-step progress
 
 Example:
 
@@ -1554,31 +1555,31 @@ Explain:
 
 Use subtle:
 
-* Page transitions
-* Card interactions
-* Chart animations
-* Upload progress
-* Number transitions
+- Page transitions
+- Card interactions
+- Chart animations
+- Upload progress
+- Number transitions
 
 ### Accessibility
 
 Support:
 
-* Keyboard navigation
-* Visible focus states
-* Semantic HTML
-* Accessible labels
-* Sufficient contrast
-* Screen-reader-friendly controls
+- Keyboard navigation
+- Visible focus states
+- Semantic HTML
+- Accessible labels
+- Sufficient contrast
+- Screen-reader-friendly controls
 
 ### Mobile Responsiveness
 
 Support:
 
-* Mobile
-* Tablet
-* Laptop
-* Desktop
+- Mobile
+- Tablet
+- Laptop
+- Desktop
 
 The upload and dashboard experience should remain usable on smaller screens.
 
@@ -1588,19 +1589,19 @@ The upload and dashboard experience should remain usable on smaller screens.
 
 ### Normal Functionality
 
-* Activity storage
-* Unit normalization
-* Emission-factor application
-* Carbon calculations
-* Analytics
-* Report generation
+- Activity storage
+- Unit normalization
+- Emission-factor application
+- Carbon calculations
+- Analytics
+- Report generation
 
 ### AI-Powered Functionality
 
-* OCR-based document reading
-* Intelligent field extraction
-* Document understanding
-* Personalized recommendation generation
+- OCR-based document reading
+- Intelligent field extraction
+- Document understanding
+- Personalized recommendation generation
 
 ### Innovative Component
 
@@ -1665,19 +1666,19 @@ Snap2Green should begin as a modular monolith and evolve only when scale require
 
 Use:
 
-* Stateless APIs
-* Connection pooling
-* Caching
-* Background document processing
+- Stateless APIs
+- Connection pooling
+- Caching
+- Background document processing
 
 ### More Data
 
 Use:
 
-* PostgreSQL indexing
-* Pagination
-* Aggregation queries
-* Database optimization
+- PostgreSQL indexing
+- Pagination
+- Aggregation queries
+- Database optimization
 
 ### More Organizations
 
@@ -1772,11 +1773,11 @@ Run AI/OCR processing server-side.
 
 Use:
 
-* HTTPS
-* Environment variables
-* Production logging
-* CORS configuration
-* Secure secrets
+- HTTPS
+- Environment variables
+- Production logging
+- CORS configuration
+- Secure secrets
 
 ---
 
@@ -1914,14 +1915,14 @@ Service-role credentials and AI/OCR keys must remain server-side.
 
 Test:
 
-* Landing page
-* Authentication
-* Upload
-* Verification
-* Dashboard
-* Charts
-* Reports
-* Responsive layouts
+- Landing page
+- Authentication
+- Upload
+- Verification
+- Dashboard
+- Charts
+- Reports
+- Responsive layouts
 
 Recommended:
 
@@ -1935,14 +1936,14 @@ Playwright
 
 Test:
 
-* Authentication
-* Upload
-* Activity retrieval
-* Verification
-* Calculation
-* Dashboard
-* Reports
-* Authorization
+- Authentication
+- Upload
+- Activity retrieval
+- Verification
+- Calculation
+- Dashboard
+- Reports
+- Authorization
 
 Recommended:
 
@@ -1955,21 +1956,21 @@ HTTPX
 
 Test:
 
-* Relationships
-* Constraints
-* User isolation
-* Emission factors
-* Calculation persistence
+- Relationships
+- Constraints
+- User isolation
+- Emission factors
+- Calculation persistence
 
 ### AI/OCR
 
 Test:
 
-* Clear electricity bills
-* Low-quality images
-* Different document layouts
-* Missing fields
-* Incorrect OCR values
+- Clear electricity bills
+- Low-quality images
+- Different document layouts
+- Missing fields
+- Incorrect OCR values
 
 ### Calculation Engine
 
@@ -1985,11 +1986,11 @@ Example:
 
 Test:
 
-* Registration
-* Login
-* Invalid credentials
-* Expired session
-* Unauthorized access
+- Registration
+- Login
+- Invalid credentials
+- Expired session
+- Unauthorized access
 
 ### Main Workflow
 
@@ -2054,11 +2055,11 @@ Reveal the emission-factor source and calculation trail.
 
 Show:
 
-* Total footprint
-* Scope 1
-* Scope 2
-* Trend
-* Hotspots
+- Total footprint
+- Scope 1
+- Scope 2
+- Trend
+- Hotspots
 
 ### 8. AI Recommendation
 
@@ -2134,27 +2135,27 @@ A consumer-first product can make carbon tracking more accessible than enterpris
 
 Automation reduces:
 
-* Manual data entry
-* Repeated calculations
-* Report preparation
-* Interpretation effort
+- Manual data entry
+- Repeated calculations
+- Report preparation
+- Interpretation effort
 
 ### Accessibility
 
 The product targets:
 
-* Students
-* Campus communities
-* Urban citizens
+- Students
+- Campus communities
+- Urban citizens
 
 ### Environmental Impact
 
 The intended outcome is measurable behavior change through:
 
-* Awareness
-* Hotspot identification
-* Personalized recommendations
-* Habit-forming engagement
+- Awareness
+- Hotspot identification
+- Personalized recommendations
+- Habit-forming engagement
 
 Any percentage reduction should be measured after establishing a pilot baseline rather than claimed beforehand.
 
@@ -2180,15 +2181,15 @@ Project Setup
 
 Deliverables:
 
-* React frontend
-* FastAPI backend
-* PostgreSQL
-* Authentication
-* Document upload
-* OCR extraction
-* Verification
-* Scope 1/2 calculation
-* Basic dashboard
+- React frontend
+- FastAPI backend
+- PostgreSQL
+- Authentication
+- Document upload
+- OCR extraction
+- Verification
+- Scope 1/2 calculation
+- Basic dashboard
 
 ---
 
@@ -2196,14 +2197,14 @@ Deliverables:
 
 Add:
 
-* Hotspot analytics
-* Recommendation engine
-* PDF reports
-* Gamification
-* Animations
-* Demo data
-* Responsive UI
-* Loading/error states
+- Hotspot analytics
+- Recommendation engine
+- PDF reports
+- Gamification
+- Animations
+- Demo data
+- Responsive UI
+- Loading/error states
 
 ---
 
@@ -2211,15 +2212,15 @@ Add:
 
 Add:
 
-* Stronger authentication
-* Improved OCR
-* Background processing
-* Monitoring
-* Logging
-* Backups
-* Emission-factor management
-* Extended testing
-* Production infrastructure
+- Stronger authentication
+- Improved OCR
+- Background processing
+- Monitoring
+- Logging
+- Backups
+- Emission-factor management
+- Extended testing
+- Production infrastructure
 
 ---
 
@@ -2227,13 +2228,13 @@ Add:
 
 Add:
 
-* Campus organizations
-* City-level deployment
-* Corporate accounts
-* Scope 3
-* Employee footprint
-* ESG integrations
-* Enterprise reporting
+- Campus organizations
+- City-level deployment
+- Corporate accounts
+- Scope 3
+- Employee footprint
+- ESG integrations
+- Enterprise reporting
 
 ---
 
@@ -2305,11 +2306,11 @@ The project should be implemented incrementally. Each layer should be functional
 
 Create the repository structure and configure:
 
-* React + TypeScript frontend
-* FastAPI backend
-* PostgreSQL
-* Git/GitHub
-* Environment variables
+- React + TypeScript frontend
+- FastAPI backend
+- PostgreSQL
+- Git/GitHub
+- Environment variables
 
 **Complete before moving forward:** frontend and backend can run independently.
 
@@ -2319,17 +2320,17 @@ Create the repository structure and configure:
 
 Build:
 
-* Typography
-* Spacing
-* Buttons
-* Cards
-* Inputs
-* Modals
-* Navigation
-* Charts
-* Toasts
-* Loading states
-* Error states
+- Typography
+- Spacing
+- Buttons
+- Cards
+- Inputs
+- Modals
+- Navigation
+- Charts
+- Toasts
+- Loading states
+- Error states
 
 Create reusable components before building individual pages.
 
@@ -2341,11 +2342,11 @@ Create reusable components before building individual pages.
 
 Implement:
 
-* Registration
-* Login
-* Logout
-* Protected routes
-* User sessions
+- Registration
+- Login
+- Logout
+- Protected routes
+- User sessions
 
 **Complete before moving forward:** an authenticated user can securely access the dashboard.
 
@@ -2355,13 +2356,13 @@ Implement:
 
 Create:
 
-* Users
-* Activities
-* Activity data
-* Emission factors
-* Calculations
-* Recommendations
-* Reports
+- Users
+- Activities
+- Activity data
+- Emission factors
+- Calculations
+- Recommendations
+- Reports
 
 Add migrations and seed verified emission factors.
 
@@ -2383,10 +2384,10 @@ Implement:
 
 Add:
 
-* Validation
-* Authentication
-* Authorization
-* Error handling
+- Validation
+- Authentication
+- Authorization
+- Error handling
 
 **Complete before moving forward:** APIs can be tested independently.
 
@@ -2415,10 +2416,10 @@ Start with electricity bills.
 
 Integrate:
 
-* OCR
-* Structured extraction
-* Document understanding
-* Recommendation generation
+- OCR
+- Structured extraction
+- Document understanding
+- Recommendation generation
 
 Keep AI isolated behind service interfaces.
 
@@ -2432,12 +2433,12 @@ The AI layer should assist with extraction and interpretation, while final emiss
 
 Implement:
 
-* Total footprint
-* Scope 1/2
-* Trends
-* Hotspots
-* Recent activities
-* Recommendations
+- Total footprint
+- Scope 1/2
+- Trends
+- Hotspots
+- Recent activities
+- Recommendations
 
 **Complete before moving forward:** dashboard updates after successful calculations.
 
@@ -2447,13 +2448,13 @@ Implement:
 
 Implement:
 
-* Report generation
-* Carbon summary
-* Scope breakdown
-* Activity breakdown
-* Factor/source information
-* Recommendations
-* PDF download
+- Report generation
+- Carbon summary
+- Scope breakdown
+- Activity breakdown
+- Factor/source information
+- Recommendations
+- PDF download
 
 **Complete before moving forward:** reports can be generated entirely from stored application data.
 

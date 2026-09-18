@@ -1,12 +1,151 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useState } from 'react';
-import { Shell } from '@/components/site-shell';
-import { Reveal } from '@/components/reveal';
-import { FaqItem } from '@/components/faq';
+import Link from "next/link";
+import { useState } from "react";
+import { Shell } from "@/components/site-shell";
+import { Reveal } from "@/components/reveal";
+import { FaqItem } from "@/components/faq";
 
 export default function PricingPage() {
   const [yearly, setYearly] = useState(false);
-  return <Shell current="pricing"><main><section className="page-hero"><Reveal><div className="wrap"><p className="eyebrow">Plans</p><h1 style={{ marginTop: 10 }}>Built for how you'll use it.</h1><p className="lede">One engine, three ways to use it &mdash; from a single person to a whole campus to a company's Scope 3 reporting.</p></div></Reveal></section><section style={{ paddingTop: 0 }}><div className="wrap"><div className="billing-toggle" role="group" aria-label="Billing period"><button type="button" className={!yearly ? 'is-active' : ''} onClick={() => setYearly(false)}>Monthly</button><button type="button" className={yearly ? 'is-active' : ''} onClick={() => setYearly(true)}>Yearly<span className="save-tag">Save 20%</span></button></div><div className="pricing-grid reveal-group"><Reveal><div className="price-card"><span className="tier">Personal</span><div className="amount">&#8377;0<span className="unit">/forever</span></div><p className="desc">For anyone who wants to know their own number.</p><ul><li>Unlimited bill &amp; receipt scans</li><li>Scope 1 &amp; 2 footprint calculation</li><li>Hotspot insights</li><li>One recommendation per scan</li><li>Monthly PDF report</li></ul><Link className="btn-secondary" href="/contact">Get early access</Link></div></Reveal><Reveal><div className="price-card is-highlight"><span className="popular-tag">Most popular</span><span className="tier">Campus</span><div className="amount"><span className="amount-value pulse">{yearly ? '₹3,999' : '₹4,999'}</span><span className="unit">/mo per cohort</span></div><p className="desc">For colleges and sustainability cells running a cohort pilot.</p><ul><li>Everything in Personal</li><li>Cohort dashboard &amp; baseline tracking</li><li>Leaderboards across the cohort</li><li>Shared emission-factor library</li><li>Onboarding support for your pilot</li></ul><Link className="btn-primary" href="/contact">Start a pilot</Link></div></Reveal><Reveal><div className="price-card"><span className="tier">Enterprise</span><div className="amount">Custom</div><p className="desc">For companies reporting employee-commute Scope 3 emissions.</p><ul><li>Everything in Campus</li><li>Employee commute &amp; consumption reporting</li><li>Aggregated Scope 3 exports</li><li>Dedicated onboarding</li></ul><Link className="btn-secondary" href="/contact">Talk to us</Link></div></Reveal></div></div></section><section className="band-moss"><Reveal><div className="wrap" style={{ maxWidth: 760 }}><div className="section-head"><p className="eyebrow">Questions</p><h2 style={{ marginTop: 10 }}>Before you ask</h2></div><div className="faq-list"><FaqItem question="Do I need to log anything by hand?">No. Personal is built entirely around photographing bills, receipts, and tickets. There's no daily log to keep up.</FaqItem><FaqItem question="Which regions are supported right now?">Grid factors currently cover India's major regional zones, sourced from CEA's 2023 baseline data, with more granular coverage on the way.</FaqItem><FaqItem question="Is Scope 3 included?">Not yet. Supplier, travel, and upstream transport emissions are on the roadmap but intentionally excluded today, so the current number stays fast and verifiable.</FaqItem><FaqItem question="How is Campus pricing decided?">Campus pilots are scoped with each institution individually based on cohort size &mdash; reach out and we'll walk through it together.</FaqItem></div></div></Reveal></section></main></Shell>;
+  return (
+    <Shell current="pricing">
+      <main>
+        <section className="page-hero">
+          <Reveal>
+            <div className="wrap">
+              <p className="eyebrow">Plans</p>
+              <h1 style={{ marginTop: 10 }}>Built for how you'll use it.</h1>
+              <p className="lede">
+                One engine, three ways to use it &mdash; from a single person to
+                a whole campus to a company's Scope 3 reporting.
+              </p>
+            </div>
+          </Reveal>
+        </section>
+        <section style={{ paddingTop: 0 }}>
+          <div className="wrap">
+            <div
+              className="billing-toggle"
+              role="group"
+              aria-label="Billing period"
+            >
+              <button
+                type="button"
+                className={!yearly ? "is-active" : ""}
+                onClick={() => setYearly(false)}
+              >
+                Monthly
+              </button>
+              <button
+                type="button"
+                className={yearly ? "is-active" : ""}
+                onClick={() => setYearly(true)}
+              >
+                Yearly<span className="save-tag">Save 20%</span>
+              </button>
+            </div>
+            <div className="pricing-grid reveal-group">
+              <Reveal>
+                <div className="price-card">
+                  <span className="tier">Personal</span>
+                  <div className="amount">
+                    Free<span className="unit">/forever</span>
+                  </div>
+                  <p className="desc">
+                    For anyone who wants to know their own number.
+                  </p>
+                  <ul>
+                    <li>limited bill &amp; receipt scans</li>
+                    <li>Scope 1 &amp; 2 footprint calculation</li>
+                    <li>Hotspot insights</li>
+                    <li>One recommendation per scan</li>
+                    <li>Monthly PDF report</li>
+                  </ul>
+                  <Link className="btn-secondary" href="/contact">
+                    Get early access
+                  </Link>
+                </div>
+              </Reveal>
+              <Reveal>
+                <div className="price-card is-highlight">
+                  <span className="popular-tag">Most popular</span>
+                  <span className="tier">Campus</span>
+                  <div className="amount">
+                    <span className="amount-value pulse">
+                      {yearly ? "₹3,999" : "₹4,999"}
+                    </span>
+                    <span className="unit">/mo per cohort</span>
+                  </div>
+                  <p className="desc">
+                    For colleges and sustainability cells running a cohort
+                    pilot.
+                  </p>
+                  <ul>
+                    <li>Everything in Personal</li>
+                    <li>Cohort dashboard &amp; baseline tracking</li>
+                    <li>Leaderboards across the cohort</li>
+                    <li>Shared emission-factor library</li>
+                    <li>Onboarding support for your pilot</li>
+                  </ul>
+                  <Link className="btn-primary" href="/contact">
+                    Start a pilot
+                  </Link>
+                </div>
+              </Reveal>
+              <Reveal>
+                <div className="price-card">
+                  <span className="tier">Enterprise</span>
+                  <div className="amount">Custom</div>
+                  <p className="desc">
+                    For companies reporting employee-commute Scope 3 emissions.
+                  </p>
+                  <ul>
+                    <li>Everything in Campus</li>
+                    <li>Employee commute &amp; consumption reporting</li>
+                    <li>Aggregated Scope 3 exports</li>
+                    <li>Dedicated onboarding</li>
+                  </ul>
+                  <Link className="btn-secondary" href="/contact">
+                    Talk to us
+                  </Link>
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </section>
+        <section className="band-moss">
+          <Reveal>
+            <div className="wrap" style={{ maxWidth: 760 }}>
+              <div className="section-head">
+                <p className="eyebrow">Questions</p>
+                <h2 style={{ marginTop: 10 }}>Before you ask</h2>
+              </div>
+              <div className="faq-list">
+                <FaqItem question="Do I need to log anything by hand?">
+                  No. Personal is built entirely around photographing bills,
+                  receipts, and tickets. There's no daily log to keep up.
+                </FaqItem>
+                <FaqItem question="Which regions are supported right now?">
+                  Grid factors currently cover India's major regional zones,
+                  sourced from CEA's 2023 baseline data, with more granular
+                  coverage on the way.
+                </FaqItem>
+                <FaqItem question="Is Scope 3 included?">
+                  Not yet. Supplier, travel, and upstream transport emissions
+                  are on the roadmap but intentionally excluded today, so the
+                  current number stays fast and verifiable.
+                </FaqItem>
+                <FaqItem question="How is Campus pricing decided?">
+                  Campus pilots are scoped with each institution individually
+                  based on cohort size &mdash; reach out and we'll walk through
+                  it together.
+                </FaqItem>
+              </div>
+            </div>
+          </Reveal>
+        </section>
+      </main>
+    </Shell>
+  );
 }

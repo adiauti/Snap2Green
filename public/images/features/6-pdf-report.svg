@@ -1,0 +1,40 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="charGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#454A46"/><stop offset="1" stop-color="#2B2F2C"/>
+</linearGradient>
+<linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#4ADE80"/><stop offset="1" stop-color="#16A34A"/>
+</linearGradient>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+<feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.10"/>
+</filter>
+</defs>
+<rect width="512" height="512" fill="#F7F6F2"/>
+
+<g filter="url(#soft)">
+<rect x="90" y="150" width="230" height="160" rx="10" fill="url(#charGrad)"/>
+</g>
+<rect x="106" y="164" width="198" height="118" rx="4" fill="#FFFFFF" opacity="0.08"/>
+<rect x="150" y="316" width="110" height="14" rx="7" fill="#6B706B"/>
+<rect x="120" y="330" width="170" height="10" rx="5" fill="#454A46"/>
+<g filter="url(#soft)">
+<rect x="270" y="120" width="168" height="220" rx="14" fill="#FFFFFF" stroke="#E6E4DC" stroke-width="2"/>
+</g>
+<rect x="270" y="120" width="168" height="44" rx="14" fill="#2B2F2C"/>
+<rect x="270" y="150" width="168" height="14" fill="#2B2F2C"/>
+<rect x="288" y="136" width="90" height="10" rx="5" fill="#4ADE80"/>
+<rect x="288" y="182" width="80" height="34" rx="6" fill="#DCF6E6"/>
+<rect x="298" y="192" width="60" height="14" rx="4" fill="#16A34A"/>
+<rect x="288" y="230" width="14" height="36" fill="#DAD8D0"/>
+<rect x="308" y="216" width="14" height="50" fill="#C7C4BA"/>
+<rect x="328" y="238" width="14" height="28" fill="#DAD8D0"/>
+<circle cx="392" cy="238" r="24" fill="none" stroke="#DAD8D0" stroke-width="10"/>
+<circle cx="392" cy="238" r="24" fill="none" stroke="#16A34A" stroke-width="10" stroke-dasharray="94 151" stroke-linecap="round" transform="rotate(-90 392 238)"/>
+<rect x="288" y="284" width="130" height="8" rx="4" fill="#DAD8D0"/>
+<rect x="288" y="300" width="100" height="8" rx="4" fill="#DAD8D0"/>
+<g filter="url(#soft)">
+<circle cx="438" cy="340" r="26" fill="#16A34A"/>
+</g>
+<path d="M438 328 L438 348 M429 339 L438 348 L447 339" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
