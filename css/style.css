@@ -245,7 +245,7 @@ header.is-scrolled {
   font-weight: 600;
 }
 
-.nav-links a[href="/dashboard"] {
+.nav-links a[href="/dashboard"][aria-current="page"] {
   opacity: 1;
   color: var(--primary-deep);
   background: var(--primary-tint);
@@ -255,13 +255,6 @@ header.is-scrolled {
   transition: all 0.2s var(--ease);
 }
 
-.nav-links a[href="/dashboard"]:hover {
-  color: #fff;
-  background: var(--primary);
-  font-weight: 700;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(95, 116, 100, 0.2);
-}
 .nav-cta-mobile {
   display: none;
 }
